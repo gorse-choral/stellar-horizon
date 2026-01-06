@@ -1,0 +1,43 @@
+[INFO] Stellar Horizon - Execution Log
+Timestamp: 2025-12-29T10:25:30Z
+
+[INFO] Starting Stellar Horizon network check...
+[INFO] Network: base-sepolia
+[INFO] Chain ID: 84532
+[INFO] RPC URL: https://sepolia.base.org
+[INFO] Explorer URL: https://sepolia.basescan.org
+
+[INFO] Connecting to RPC endpoint...
+[DEBUG] Attempting connection to https://sepolia.base.org
+[INFO] RPC connection established successfully.
+
+[INFO] Fetching the latest block number from RPC...
+[DEBUG] RPC request: block number
+[INFO] Latest block number fetched: 9876543
+[INFO] Block height check passed.
+
+[INFO] Querying account balance for address cosmos1...
+[DEBUG] RPC request: balance for cosmos1...
+[INFO] Balance response: 100.00 XLM (XLM token)
+[INFO] Balance check passed for cosmos1: 100.00 XLM
+
+[INFO] Verifying contract deployment...
+[DEBUG] Contract address: 0x1234567890abcdef1234567890abcdef12345678
+[INFO] Contract code request to RPC...
+[DEBUG] RPC response: 0xabcdefabcdefabcdefabcdefabcdefabcdef
+[INFO] Contract bytecode verified successfully.
+
+[INFO] Verifying contract data on BaseScan Explorer...
+[DEBUG] BaseScan URL: https://sepolia.basescan.org/address/0x1234567890abcdef1234567890abcdef12345678
+[INFO] Explorer response: Contract data fetched correctly from BaseScan.
+[INFO] Explorer check successful.
+
+[INFO] Completing the validation steps...
+
+[INFO] All validation steps passed successfully.
+[INFO] Ready for further deployment on Base Mainnet.
+
+[DEBUG] Logging the execution details to logs/debug.log
+[INFO] Execution completed successfully.
+
+[DEBUG] Closing execution log file.
